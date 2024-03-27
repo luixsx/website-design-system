@@ -1,0 +1,221 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.source-code pro-<uniquifier> {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.orbitron-<uniquifier> {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.tourney-<uniquifier> {
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.advent-pro-<uniquifier> {
+  font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.genos-<uniquifier> {
+  font-family: "Genos", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0E68C;
+}
+
+p {
+    font-family: "Genos", sans-serif;
+}
+
+.breadcrumbs {
+    margin-bottom: 50px;
+}
+
+.breadcrumbs li {
+    display: inline;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid black;
+    width: 10px;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: bold;
+    background-color: #F5FFFA;
+    border-radius: 10px;
+    box-shadow: 0px 5px;
+}
+
+.breadcrumbs :hover {
+    cursor: pointer;
+    background-color: #7CFC00;
+}
+
+.colorscontainer, .fontcontainer, .textstylescontainer {
+    border: 3px solid black;
+    width: 665px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #F5FFFA;
+}
+
+
+.mintcream, .lawngreen, .mediumspringgreen, .khaki, .mediumpurple {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+}
+
+.khaki {
+    background-color: khaki;
+    clear: both;
+}
+.mintcream {
+    background-color:#F5FFFA;
+}
+
+
+.lawngreen {
+    background-color:#7CFC00;
+} 
+
+.mediumspringgreen {
+    background-color: #00FA9A;
+}
+
+.mediumpurple{
+    background-color: #9370DB;
+}
+.mintcream, .lawngreen, .mediumspringgreen, .khaki, .fonts, .fontadventpro, .h1tag, .h2tag, .ptag, .description2, .navigationtag :hover {
+    cursor: pointer;
+}
+
+.description {
+    display:inline;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Tourney", sans-serif;
+}
+
+.fonts {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    background-color: #00FA9A;
+    float: left;
+    font-weight: bold;
+}
+
+.orbitron {
+    font-family: "Orbitron", sans-serif;
+}
+
+.sourcecodepro {
+    font-family: "Source Code Pro", monospace;
+}
+
+.tourney {
+    font-family: "Tourney", sans-serif;
+}
+
+.adventpro {
+    font-family: "Advent Pro", sans-serif;
+}
+
+.fontadventpro {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    background-color: #00FA9A;
+    float: left;
+    font-weight: bold;
+    clear: both;
+    
+}
+
+.description{
+     font-weight: 400;
+     font-size: 14px;
+     font-family: "Source Code Pro", monospace;
+}
+
+footer {
+    display: inline;
+    position: relative;
+    bottom: 20px;
+    padding: 5px;
+    border: 3px solid black;
+    width: 10px;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: bold;
+    background-color: #FFD700;
+    border-radius: 10px;
+    box-shadow: 0px 5px;
+}
+
+.h1tag, .h2tag, .ptag, .description2, .navigationtag {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    float: left;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    background-color: #9370DB;
+}
